@@ -1,0 +1,167 @@
+> Son:
+<html>
+  <head>
+    <style>
+      body {
+        background-image: url("https://home.kpmg/content/dam/kpmg/in/images/2022/05/top-15-priorities-transformation-of-indian-healthcare-2024-healthcare-agenda.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    </style>
+    <title>COHERENCE</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a href="index.html"><h1>COHERENCE</h1></a>
+      </div>
+      <div class="row">
+        <div class="main">
+          <h2>Welcome to COHERENCE</h2>
+          <p>
+            Primary aim of coherance is digitization of medical records. Its
+            objective is to increase the portability ofclinical information
+            including the better interaction between patient and health service
+            provider.Coherance helps its users to reduce the struggle of paper
+            based record keeping.
+          </p>
+        </div>
+        <div class="sidebar">
+          <h2>Links</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <!DOCTYPE html>
+            <html>
+              <head>
+                <meta
+                  name="viewport"
+                  content="width=device-width, initial-scale=1"
+                />
+                <style>
+                  body {font-family: Arial, Helvetica, sans-serif;}
+                  form {border: 3px solid #f1f1f1;}
+
+                  input[type=text], input[type=password] {
+                    width: 100%;
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    box-sizing: border-box;
+                  [3:47 pm, 22/12/2022] Aisuu Mol: <!DOCTYPE html>
+                  <html>
+                  <head>
+                  <meta name="viewport" content="width=device-width, initial-scale=1">
+                  <style>
+                  body {font-family: Arial, Helvetica, sans-serif;}
+                  form {border: 3px solid #f1f1f1;}
+
+                  input[type=text], input[type=password] {
+                    width: 100%;
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    box-sizing: border-box;
+                  }
+
+                  button {
+                    background-color: #04AA6D;
+                    color: white;
+                    padding: 14px 20px;
+                    margin: 8px 0;
+                    border: none;
+                    cursor: pointer;
+                    width: 100%;
+                  }
+
+                  button:hover {
+                    opacity: 0.8;
+                  }
+
+                  .cancelbtn {
+                    width: auto;
+                    padding: 10px 18px;
+                    background-color: #f44336;
+                  }
+
+                  .imgcontainer {
+                    text-align: center;
+                    margin: 24px 0 12px 0;
+                  }
+
+
+                  .container {
+                    padding: 16px;
+                  }
+
+                  span.psw {
+                    float: right;
+                    padding-top: 16px;
+                  }
+                  @media screen and (max-width: 300px) {
+                    span.psw {
+                       display: block;
+                       float: none;
+                    }
+                    .cancelbtn {
+                       width: 100%;
+                    }
+                  }
+                </style>
+              </head>
+              <body>
+                <h2>Login Form</h2>
+
+                <form action="/action_page.php" method="post">
+                  <div class="imgcontainer"></div>
+
+                  <div class="container">
+                    > Son:
+                    <label for="uname"><b>Username</b></label>
+                    <input
+                      type="text"
+                      placeholder="Enter Username"
+                      name="uname"
+                      required
+                    />
+
+                    <label for="psw"><b>Password</b></label>
+                    <input
+                      type="password"
+                      placeholder="Enter Password"
+                      name="psw"
+                      required
+                    />
+
+                    <button type="submit">Login</button>
+                    <label>
+                      <input
+                        type="checkbox"
+                        checked="checked"
+                        name="remember"
+                      />
+                      Remember me
+                    </label>
+                  </div>
+
+                  <div class="container" style="background-color: #f1f1f1">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <span class="psw"><a href="#">forgot password</a></span>
+                  </div>
+                </form>
+              </body>
+            </html>
+            <nav>
+              <a href="./signup.html">sign up</a>
+            </nav>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
