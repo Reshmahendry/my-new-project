@@ -1,0 +1,47 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+  import { getDatabase,set,ref,update} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
+  import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js";
+
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyC4WpMtDAXqDGhnWB2juMMqJd9sWJg0iWo",
+    authDomain: "authentication-app-b8e1d.firebaseapp.com",
+    databaseURL: "https://authentication-app-b8e1d-default-rtdb.firebaseio.com",
+    projectId: "authentication-app-b8e1d",
+    storageBucket: "authentication-app-b8e1d.appspot.com",
+    messagingSenderId: "499150650708",
+    appId: "1:499150650708:web:405638c2c8a2abd7e85cc1",
+    measurementId: "G-Z9SXC7NHHY",
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const database = getDatabase(app);
+  const auth = getAuth();
+  signup.addeventlistener('click',(e)=>{
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+  signInWithEmailAndPassword(auth, email, password)
+  .then(userCredential) => {
+    // Signed in
+    const user = userCredential.user;
+    const dt = new Date();
+    update(ref(database, 'users/'=user.vid),{
+        last_login:EmailId
+    })
+    aler('user loged in!');
+    // ...
+  }})
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    alert(errorMessage);
+    // ..
+  });
+</script>
